@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+        version="2.1">
+
+    <persistence-unit name="default" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>wackopastorius.Player</class>
+        <class>wackopastorius.Team</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/pipergames"/>
+            <property name="javax.persistence.jdbc.user" value="hbstudent"/>
+            <property name="javax.persistence.jdbc.password" value="hbstudent"/>
+        </properties>
+    </persistence-unit>
+
+    <!-- Invoke 'Generate' action to add tags or functions -->
+
+</persistence>
