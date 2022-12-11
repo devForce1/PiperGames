@@ -36,8 +36,7 @@ public class Player {
     public Player() {
     }
 
-    public Player(int playerID, String firstName, String lastName, String nickname, String address, String country, String email, int teamID) {
-        this.playerID = playerID;
+    public Player(String firstName, String lastName, String nickname, String address, String country, String email, int teamID) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.nickname = nickname;
