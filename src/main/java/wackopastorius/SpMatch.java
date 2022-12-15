@@ -1,6 +1,10 @@
 package wackopastorius;
 
-//det är JAG IGEN
+/*
+*
+* Author so far: Mikael Petersson
+*
+* */
 
 public class SpMatch {
 

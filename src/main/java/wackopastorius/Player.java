@@ -1,5 +1,11 @@
 package wackopastorius;
 
+/*
+*
+* Author: Lada Egolaeva
+*
+* */
+
 import javax.persistence.*;
 
 @Entity

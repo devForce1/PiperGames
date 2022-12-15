@@ -1,6 +1,9 @@
 package wackopastorius;
 
-//Jag och INGEN ANNAN, har skrivit denna klass
+/*
+* Author: Mikael Petersson
+*
+* */
 
 import javax.persistence.*;
 
@@ -19,8 +22,7 @@ public class Game {
     private boolean multiplayer;
 
 
-    public Game(int gameID, String name, boolean multiplayer) {
-        this.gameID = gameID;
+    public Game(String name, boolean multiplayer) {
         this.name = name;
         this.multiplayer = multiplayer;
     }
@@ -52,5 +54,10 @@ public class Game {
 
     public void setMultiplayer(boolean multiplayer) {
         this.multiplayer = multiplayer;
+    }
+
+    @Override
+    public String toString() {
+        return "GameID " + gameID + " = " + name + "\n";
     }
 }

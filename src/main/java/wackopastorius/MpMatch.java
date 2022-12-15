@@ -1,6 +1,10 @@
 package wackopastorius;
 
-//det är JAG som är författaren
+/*
+*
+* Author so far: Mikael Petersson
+*
+* */
 
 public class MpMatch {
 
