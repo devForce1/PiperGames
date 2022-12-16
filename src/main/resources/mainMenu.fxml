@@ -18,7 +18,7 @@
                   <items>
                     <MenuItem mnemonicParsing="false" text="Players" />
                         <MenuItem mnemonicParsing="false" text="Teams" />
-                        <MenuItem mnemonicParsing="false" text="Marches" />
+                        <MenuItem mnemonicParsing="false" text="Matches" />
                         <MenuItem mnemonicParsing="false" text="Staff" />
                         <MenuItem mnemonicParsing="false" text="Games" />
                   </items>
