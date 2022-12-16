@@ -1,14 +1,25 @@
 package wackopastorius;
 
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuItem;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
 public class ControllerFx {
 
-    public Menu menuStaff;
+    public MenuItem menu;
 
-    public void handleMenuStaff() {
-
+    public void handlestaffMember () throws Exception {
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("mainMenu.fxml"));
+        Stage stage = new Stage();
+        stage.initModality(Modality.APPLICATION_MODAL);
+        stage.setOpacity(1);
+        stage.setTitle("My New Stage Title");
+        stage.setScene(new Scene(root, 450, 450));
+        stage.showAndWait();
     }
 
 }
