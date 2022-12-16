@@ -14,12 +14,13 @@ public class ControllerFx {
 
     public void handlestaffMember () throws Exception {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("mainMenu.fxml"));
-        Stage stage = new Stage();
-        stage.initModality(Modality.APPLICATION_MODAL);
-        stage.setOpacity(1);
-        stage.setTitle("My New Stage Title");
-        stage.setScene(new Scene(root, 450, 450));
-        stage.showAndWait();
+        Stage primarystage = new Stage();
+        primarystage.initModality(Modality.APPLICATION_MODAL);
+        primarystage.setTitle("Main Menu");
+        primarystage.setScene(new Scene(root, 800, 600));
+        primarystage.show();
+
     }
 
 }
+

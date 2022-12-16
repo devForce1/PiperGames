@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wackopastorius.ControllerFx">
    <children>
@@ -15,27 +16,61 @@
               <menus>
                 <Menu mnemonicParsing="false" text="Add">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="Close" />
+                    <MenuItem mnemonicParsing="false" text="Players" />
+                        <MenuItem mnemonicParsing="false" text="Teams" />
+                        <MenuItem mnemonicParsing="false" text="Marches" />
+                        <MenuItem mnemonicParsing="false" text="Staff" />
+                        <MenuItem mnemonicParsing="false" text="Games" />
                   </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Change">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="Delete" />
+                    <MenuItem mnemonicParsing="false" text="Players" />
+                        <MenuItem mnemonicParsing="false" text="Teams" />
+                        <MenuItem mnemonicParsing="false" text="Matches" />
+                        <MenuItem mnemonicParsing="false" text="Staff" />
+                        <MenuItem mnemonicParsing="false" text="Games" />
                   </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Delete">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="About" />
+                    <MenuItem mnemonicParsing="false" text="Players" />
+                        <MenuItem mnemonicParsing="false" text="Teams" />
+                        <MenuItem mnemonicParsing="false" text="Matches" />
+                        <MenuItem mnemonicParsing="false" text="Staff" />
+                        <MenuItem mnemonicParsing="false" text="Games" />
                   </items>
                 </Menu>
                   <Menu mnemonicParsing="false" text="View">
                     <items>
-                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Players" />
+                        <MenuItem mnemonicParsing="false" text="Teams" />
+                        <MenuItem mnemonicParsing="false" text="Tournaments" />
                     </items>
                   </Menu>
               </menus>
             </MenuBar>
          </children>
       </HBox>
+      <Button layoutX="279.0" layoutY="303.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Tournaments">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button layoutX="389.0" layoutY="303.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Standings">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button layoutX="169.0" layoutY="303.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Players">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button layoutX="59.0" layoutY="303.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Teams">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
