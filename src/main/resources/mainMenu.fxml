@@ -27,10 +27,10 @@
                 <Menu mnemonicParsing="false" text="Add">
                   <items>
                     <MenuItem fx:id="addPlayerMenu" mnemonicParsing="false" onAction="#handleAddPlayerMenu" text="Players" />
-                        <MenuItem mnemonicParsing="false" text="Teams" />
+                        <MenuItem fx:id="addTeamMenu" mnemonicParsing="false" onAction="#handleAddTeamMenu" text="Teams" />
                         <MenuItem mnemonicParsing="false" text="Matches" />
                         <MenuItem mnemonicParsing="false" text="Staff" />
-                        <MenuItem mnemonicParsing="false" text="Games" />
+                        <MenuItem fx:id="addGamesMenu" mnemonicParsing="false" onAction="#handleAddGamesMenu" text="Games" />
                   </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Change">
