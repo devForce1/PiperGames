@@ -22,5 +22,15 @@ public class ControllerFx {
 
     }
 
+    public void handleAddPlayerMenu () throws Exception {
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("addPlayer.fxml"));
+        Stage primarystage = new Stage();
+        primarystage.initModality(Modality.APPLICATION_MODAL);
+        primarystage.setTitle("Main Menu");
+        primarystage.setScene(new Scene(root, 800, 600));
+        primarystage.show();
+
+    }
+
 }
 

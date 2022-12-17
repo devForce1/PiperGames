@@ -16,7 +16,7 @@
               <menus>
                 <Menu mnemonicParsing="false" text="Add">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="Players" />
+                    <MenuItem fx:id="addPlayerMenu" mnemonicParsing="false" onAction="#handleAddPlayerMenu" text="Players" />
                         <MenuItem mnemonicParsing="false" text="Teams" />
                         <MenuItem mnemonicParsing="false" text="Matches" />
                         <MenuItem mnemonicParsing="false" text="Staff" />
