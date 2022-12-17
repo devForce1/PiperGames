@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wackopastorius.ControllerFx">
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wackopastorius.ControllerFx">
    <children>
       <HBox>
          <children>
@@ -21,5 +21,10 @@
             </MenuBar>
          </children>
       </HBox>
+       <ImageView layoutX="1.0" layoutY="25.0" preserveRatio="true">
+           <image>
+               <Image url="piper games background.png" />
+           </image>
+       </ImageView>
    </children>
 </AnchorPane>

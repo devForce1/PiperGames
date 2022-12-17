@@ -16,8 +16,9 @@ public class MainFxTest extends Application {
     public void start(Stage primaryStage) throws Exception {
             Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("startMenu.fxml"));
             primaryStage.setTitle("Menu");
-            primaryStage.setScene(new Scene(root, 800,600));
+            primaryStage.setScene(new Scene(root, 1200,715));
             primaryStage.show();
+            primaryStage.setResizable(false);
 
     }
 }

@@ -17,8 +17,9 @@ public class ControllerFx {
         Stage primarystage = new Stage();
         primarystage.initModality(Modality.APPLICATION_MODAL);
         primarystage.setTitle("Main Menu");
-        primarystage.setScene(new Scene(root, 800, 600));
+        primarystage.setScene(new Scene(root, 1200, 715));
         primarystage.show();
+        primarystage.setResizable(false);
 
     }
 
@@ -27,8 +28,9 @@ public class ControllerFx {
         Stage primarystage = new Stage();
         primarystage.initModality(Modality.APPLICATION_MODAL);
         primarystage.setTitle("Main Menu");
-        primarystage.setScene(new Scene(root, 800, 600));
+        primarystage.setScene(new Scene(root, 1200, 715));
         primarystage.show();
+        primarystage.setResizable(false);
 
     }
 
