@@ -56,6 +56,43 @@ public class ControllerFx {
 
     }
 
+    public void handleAddFirstNameText() throws Exception {
+
+    }
+
+    public void handleAddLastNameText() throws Exception {
+
+    }
+
+    public void handleAddNickNameText() throws Exception {
+
+    }
+
+    public void handleAddAdressText() throws Exception {
+
+    }
+
+    public void handleAddCountryText() throws Exception {
+
+    }
+
+    public void handleAddEmailText() throws Exception {
+
+    }
+
+    public void handleAddTeamNameText() throws Exception {
+
+    }
+
+    public void handleAddGameId() throws Exception {
+
+    }
+
+    public void handleAddGameText() throws Exception {
+
+    }
+
+
     public void handleAddPlayerButton() throws Exception {
 
     }
