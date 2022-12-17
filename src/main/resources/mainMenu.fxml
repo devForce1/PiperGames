@@ -62,26 +62,26 @@
             </MenuBar>
          </children>
       </HBox>
-      <Button layoutX="680.0" layoutY="650.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Tournaments">
+      <Button layoutX="570.0" layoutY="650.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Tournaments">
          <font>
             <Font size="9.0" />
          </font>
       </Button>
-      <Button layoutX="800.0" layoutY="650.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Standings">
+      <Button layoutX="720.0" layoutY="650.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Standings">
          <font>
             <Font size="9.0" />
          </font>
       </Button>
-      <Button fx:id="currentPlayersButton" layoutX="560.0" layoutY="650.0" mnemonicParsing="false" onAction="#handleCurrentPlayersButton" prefHeight="33.0" prefWidth="110.0" text="Current Players">
+      <Button fx:id="currentPlayersButton" layoutX="420.0" layoutY="650.0" mnemonicParsing="false" onAction="#handleCurrentPlayersButton" prefHeight="33.0" prefWidth="110.0" text="Current Players">
          <font>
             <Font size="9.0" />
          </font>
       </Button>
-      <Button fx:id="currentTeamsButton" layoutX="440.0" layoutY="650.0" mnemonicParsing="false" onAction="#handleCurrentTeamsButton" prefHeight="33.0" prefWidth="110.0" text="Current Teams">
+      <Button fx:id="currentTeamsButton" layoutX="270.0" layoutY="650.0" mnemonicParsing="false" onAction="#handleCurrentTeamsButton" prefHeight="33.0" prefWidth="110.0" text="Current Teams">
          <font>
             <Font size="9.0" />
          </font>
       </Button>
-      <Button fx:id="currentGamesButton" layoutX="920.0" layoutY="650.0" mnemonicParsing="false" onAction="#handleCurrentGamesButton" prefHeight="33.0" prefWidth="110.0" text="Current Games" />
+      <Button fx:id="currentGamesButton" layoutX="870.0" layoutY="650.0" mnemonicParsing="false" onAction="#handleCurrentGamesButton" prefHeight="33.0" prefWidth="110.0" text="Current Games" />
    </children>
 </AnchorPane>
