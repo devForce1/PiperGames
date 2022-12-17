@@ -9,9 +9,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wackopastorius.ControllerFx">
+<AnchorPane prefHeight="715.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wackopastorius.ControllerFx">
    <children>
-      <HBox prefHeight="400.0" prefWidth="600.0">
+      <HBox prefHeight="715.0" prefWidth="1200.0">
          <children>
              <ImageView preserveRatio="true">
                  <image>
@@ -20,9 +20,9 @@
              </ImageView>
          </children>
       </HBox>
-      <HBox prefHeight="100.0" prefWidth="1624.0">
+      <HBox prefHeight="100.0" prefWidth="1200.0">
          <children>
-            <MenuBar>
+            <MenuBar prefWidth="1200.0">
               <menus>
                 <Menu mnemonicParsing="false" text="Add">
                   <items>
@@ -62,22 +62,22 @@
             </MenuBar>
          </children>
       </HBox>
-      <Button layoutX="279.0" layoutY="303.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Tournaments">
+      <Button layoutX="680.0" layoutY="650.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Tournaments">
          <font>
             <Font size="9.0" />
          </font>
       </Button>
-      <Button layoutX="389.0" layoutY="303.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Standings">
+      <Button layoutX="800.0" layoutY="650.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Standings">
          <font>
             <Font size="9.0" />
          </font>
       </Button>
-      <Button layoutX="169.0" layoutY="303.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Players">
+      <Button layoutX="560.0" layoutY="650.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Players">
          <font>
             <Font size="9.0" />
          </font>
       </Button>
-      <Button layoutX="59.0" layoutY="303.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Teams">
+      <Button layoutX="440.0" layoutY="650.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="110.0" text="Current Teams">
          <font>
             <Font size="9.0" />
          </font>
