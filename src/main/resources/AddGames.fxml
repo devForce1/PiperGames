@@ -15,7 +15,7 @@
             </image>
         </ImageView>
         <TextField layoutX="14.0" layoutY="158.0" prefHeight="43.0" prefWidth="302.0" promptText="Game" />
-        <Button layoutX="976.0" layoutY="629.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="81.0" text="Add" />
+        <Button fx:id="addGameButton" layoutX="976.0" layoutY="629.0" mnemonicParsing="false" onAction="#handleAddGamesButton" prefHeight="33.0" prefWidth="81.0" text="Add" />
         <Button layoutX="1091.0" layoutY="629.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="81.0" text="Cancel" />
     </children>
 </AnchorPane>

@@ -56,5 +56,17 @@ public class ControllerFx {
 
     }
 
+    public void handleAddPlayerButton() throws Exception {
+
+    }
+
+    public void handleAddTeamButton() throws Exception {
+
+    }
+
+    public void handleAddGamesButton() throws Exception {
+
+    }
+
 }
 

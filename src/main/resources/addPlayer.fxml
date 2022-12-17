@@ -20,7 +20,7 @@
       <TextField layoutX="14.0" layoutY="398.0" prefHeight="43.0" prefWidth="302.0" promptText="Adress" />
       <TextField layoutX="14.0" layoutY="478.0" prefHeight="43.0" prefWidth="302.0" promptText="Country" />
       <TextField layoutX="14.0" layoutY="558.0" prefHeight="43.0" prefWidth="302.0" promptText="Email" />
-      <Button layoutX="976.0" layoutY="629.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="81.0" text="Add" />
+      <Button fx:id="addPlayerButton" layoutX="976.0" layoutY="629.0" mnemonicParsing="false" onAction="#handleAddPlayerButton" prefHeight="33.0" prefWidth="81.0" text="Add" />
       <Button layoutX="1091.0" layoutY="629.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="81.0" text="Cancel" />
    </children>
 </AnchorPane>
